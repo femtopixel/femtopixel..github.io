@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="" />
+    <title>FemtoPixel | <?= $this->layout()->title ?></title>
+    
+    <link href="/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/css/iphone.css" rel="stylesheet" type="text/css" />
+
+    <!-- iphone -->
+    <link rel="apple-touch-icon" href="images/icon_57.png"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+  </head>
+
+  <body class="home">
+    <div id="container">
+      <div id="header">
+        <div id="logo"><img src='/images/iphone/logo.gif' /></div>
+      </div><!-- /container/header -->
+
+      
+      <div id="navigation" >
+        <ul>
+          <li class="first"><a href="/" accesskey="1" title="Accueil"><span>Accueil</span></a></li>
+          <li><a href="/assist" accesskey="2" title="Assistance"><span>Assistance</span></a></li>
+          <li><a href="/development" accesskey="3" title="Développement Internet"><span>Développement Internet</span></a></li>
+          <li class="last"><a href="/advice" accesskey="4" title="Conseil / Audit"><span>Conseil / Audit</span></a></li>
+        </ul>
+      </div><!-- /container/navigation -->
+     
+      <div id="section">
+		<div id="content">
+		<?php echo $this->layout()->content; ?>
+		</div><!-- /container/section/content -->
+	  </div><!-- /container/section -->
+      
+      <div id="footer">
+		<p class="credit">SIRET : 51340906000011<br/><a href='http://www.facebook.com/pages/FemtoPixel/118064237745'>Femtopixel on Facebook</a><br/>2009 <strong>FemtoPixel</strong>. All rights reserved to each owner.</p>
+		<p class='legal'>contact@femtopixel.com<br/>tel : 09 54 26 62 84<br/>fax : 09 59 26 62 84</p>
+      </div><!-- /container/footer -->
+    </div><!-- /container -->
+  </body>
+</html>

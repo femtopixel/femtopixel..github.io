@@ -1,0 +1,155 @@
+/* MAIN
+------------------------------------------------------------ */
+body {
+  font-size: 12px;
+  color: #FFF;
+  background: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+  margin-bottom: 10px;
+}
+a {
+  color: #00aeef;
+  text-decoration: none;
+}
+a:hover {
+}
+a:visited {
+}
+
+/* CONTAINER
+------------------------------------------------------------ */
+#container {
+  margin: 0 auto;
+  width: 320px;
+}
+/* HEADER
+------------------------------------------------------------ */
+#header {
+  clear: both;
+  margin: 0 auto;
+  height: 77px;
+}
+#header div#logo {
+}
+/* NAVIGATION
+------------------------------------------------------------ */
+#navigation {
+  clear: both;
+  position: relative;
+  z-index: 100;
+}
+#navigation ul {
+}
+#navigation ul li {
+  height: 52px;
+  line-height: 52px;
+  background: url(../images/iphone/nav_bg.png) center top repeat-x;
+}
+#navigation ul li a {
+  font-size: 20px;
+  color: #FFF;
+  text-shadow: #000 2px 2px 3px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  
+  display: block;
+  height: 52px;
+  width: 100%;
+  
+  background: url(../images/iphone/arrow.png) 286px center no-repeat;
+}
+#navigation ul li a span {
+  margin-left: 18px;
+}
+
+#navigation ul li.last {
+  border-bottom: 1px solid #808080;
+}
+
+/* SECTION
+------------------------------------------------------------ */
+#section {
+  clear: both;
+}
+
+/* SECTION - CONTENT
+------------------------------------------------------------ */
+#content {
+  background: url(../images/iphone/content_bg.png) center top no-repeat;
+  padding: 10px 30px 30px 30px;
+  min-height: 365px;
+}
+#content h1 {
+  font-size: 30px;
+  text-shadow: #000 2px 2px 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: normal;
+  letter-spacing: -2px;
+}
+#content h2 {
+  color: #EC008C;
+  margin-bottom: 3px;
+  font-size: 20px;
+  text-shadow: #000 2px 2px 3px;
+  font-weight: normal;
+}
+#content h3 {
+
+}
+#content h4 {
+}
+#content h5 {
+}
+#content h6 {
+}
+#content p {
+  font-size: 16px;
+}
+#content ul.basic {
+  margin-left: 20px;
+  list-style: square outside;
+  line-height: 16px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#content ol {
+}
+#content blockquote {
+}
+#content dl {
+}
+#content dl dd {
+}
+#content dl dt {
+}
+
+
+#content div.item {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #555;
+}
+#content div.item.last {
+  border-bottom: 0;
+}
+
+/* FOOTER
+------------------------------------------------------------ */
+#footer {
+  clear: both;
+  height: 38px;
+}
+#footer p.slogan {
+  color: #FFF;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+#footer p.slogan a {
+  color: #FFF;
+  display: block;
+  text-shadow: #000 1px 1px 2px;
+}
